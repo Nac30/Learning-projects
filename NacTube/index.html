@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NacTube</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="media/logo.png" alt="NacTube Logo" />
+          <span>NacTube</span>
+        </div>
+        <div class="search-bar">
+          <input class="search-text" type="text" placeholder="Search" />
+          <button class="search-btn">🔃</button>
+        </div>
+        <button class="mic-btn">🎙️</button>
+        <div class="nav-right">
+          <button class="create-btn">➕ Create</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Filter bar -->
+    <div class="filter-bar">
+      <button class="filter active">All</button>
+      <button class="filter">Gaming</button>
+      <button class="filter">Music</button>
+      <button class="filter">Anime</button>
+      <button class="filter">Sports</button>
+      <button class="filter">Podcasts</button>
+      <button class="filter">Tech</button>
+      <button class="filter">Food</button>
+      <button class="filter">Animation</button>
+      <button class="filter">Trailer</button>
+      <button class="filter">Reaction</button>
+    </div>
+
+    <!-- Main content -->
+    <main>
+      <div class="grid-container" data-category="All">
+        <!-- No results message -->
+        <div id="no-results" class="hidden">
+          <h2>No results found 😢</h2>
+          <p>Try a different search term.</p>
+        </div>
+
+        <!-- Minecraft -->
+        <div
+          class="card"
+          data-title="Building a Mansion in Minecraft"
+          data-uploader="aCookieGod"
+          data-category="Gaming"
+        >
+          <a class="card-link" href="#">
+            <div class="thumb">
+              <img src="media/pc-person-gaming.png" alt="Minecraft" />
+            </div>
+            <h3 class="card-title">Building a Mansion in Minecraft</h3>
+            <p class="card-auth">aCookieGod</p>
+          </a>
+        </div>
+
+        <!-- Lo-Fi -->
+        <div
+          class="card"
+          data-title="Lo-Fi Beats to Study"
+          data-uploader="Lo-fi Girl"
+          data-category="Music"
+        >
+          <a class="card-link" href="#">
+            <div class="thumb">
+              <img src="media/lofi.png" alt="Lo-Fi" />
+            </div>
+            <h3 class="card-title">Lo-Fi Beats to Study</h3>
+            <p class="card-auth">Lo-fi Girl</p>
+          </a>
+        </div>
+
+        <!-- Arcane -->
+        <div
+          class="card"
+          data-title="Ma Meilleure Ennemie OMV"
+          data-uploader="League of Legends ✔"
+          data-category="Music,Animation"
+        >
+          <a class="card-link" href="#">
+            <div class="thumb">
+              <img src="media/arcane.jpeg" alt="Arcane" />
+            </div>
+            <h3 class="card-title">Ma Meilleure Ennemie OMV</h3>
+            <p class="card-auth">League of Legends ✔</p>
+          </a>
+        </div>
+
+        <!-- JJK -->
+        <div
+          class="card"
+          data-title="JJK Season 3 The Culling Game"
+          data-uploader="Crunchyroll ✔"
+          data-category="Anime,Trailer"
+        >
+          <a class="card-link" href="#">
+            <div class="thumb">
+              <img src="media/jjk-trailer-img.jpg" alt="JJK Trailer" />
+            </div>
+            <h3 class="card-title">JJK Season 3 The Culling Game</h3>
+            <p class="card-auth">Crunchyroll ✔</p>
+          </a>
+        </div>
+
+        <!-- NBA -->
+        <div
+          class="card"
+          data-title="Warriors at Celtics | Finals"
+          data-uploader="NBA ✔"
+          data-category="Sports"
+        >
+          <a class="card-link" href="#">
+            <div class="thumb">
+              <img src="media/nba.jpg" alt="NBA Finals" />
+            </div>
+            <h3 class="card-title">Warriors at Celtics | Finals</h3>
+            <p class="card-auth">NBA ✔</p>
+          </a>
+        </div>
+
+        <!-- Coldplay Reaction -->
+        <div
+          class="card"
+          data-title="FIRST TIME REACTION - Coldplay"
+          data-uploader="Lock In"
+          data-category="Reaction,Music"
+        >
+          <a class="card-link" href="#">
+            <div class="thumb">
+              <img src="media/react.png" alt="Coldplay Reaction" />
+            </div>
+            <h3 class="card-title">FIRST TIME REACTION - Coldplay</h3>
+            <p class="card-auth">Lock In</p>
+          </a>
+        </div>
+
+        <!-- Podcast -->
+        <div
+          class="card"
+          data-title="The Future of Digital Marketing"
+          data-uploader="The Viral Show"
+          data-category="Podcasts"
+        >
+          <a class="card-link" href="#">
+            <div class="thumb">
+              <img src="media/podcast.png" alt="Podcast" />
+            </div>
+            <h3 class="card-title">The Future of Digital Marketing</h3>
+            <p class="card-auth">The Viral Show</p>
+          </a>
+        </div>
+
+        <!-- Music -->
+        <div
+          class="card"
+          data-title="The Emptiness Machine"
+          data-uploader="Linkin Park"
+          data-category="Music"
+        >
+          <a class="card-link" href="#">
+            <div class="thumb">
+              <img src="media/music.png" alt="Music" />
+            </div>
+            <h3 class="card-title">The Emptiness Machine</h3>
+            <p class="card-auth">Linkin Park</p>
+          </a>
+        </div>
+
+        <!-- Food Tech -->
+        <div
+          class="card"
+          data-title="20 Food Industry Technologies"
+          data-uploader="Interesting Engineering ✔"
+          data-category="Food,Tech"
+        >
+          <a class="card-link" href="#">
+            <div class="thumb">
+              <img src="media/foodtech.png" alt="Food Tech" />
+            </div>
+            <h3 class="card-title">20 Food Industry Technologies</h3>
+            <p class="card-auth">Interesting Engineering ✔</p>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      Copyright &copy; 1999-2025 NacTube Company. All rights reserved.
+    </footer>
+    <script src="script2.js"></script>
+  </body>
+</html>
