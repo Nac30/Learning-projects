@@ -17,7 +17,7 @@ A YouTube-style video gallery clone with dynamic search and category-based filte
   - Responsive grid layout with hover animations  
   - "No results" fallback message  
 
-👉 *Future plan: deploy with GitHub Pages for live demo*
+👉 *Live Demo: https://nac30.github.io/Learning-projects/NacTube/*
 
 ---
 
@@ -30,7 +30,7 @@ A two-player dice game where players roll, hold, and race to reach the target sc
   - State management with DOM updates  
   - Win condition logic with player switching  
 
-👉 *Future plan: deploy with GitHub Pages for live demo*
+👉 *Live Demo: https://nac30.github.io/Learning-projects/Pig-Game/*
 
 ---
 
