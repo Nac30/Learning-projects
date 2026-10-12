@@ -73,7 +73,7 @@ A word-guessing game where each wrong guess eliminates a programming language, a
 
 - **Tech Stack:** React, Vite, JavaScript, CSS3
 
-👉 *Live Demo:
+👉 *Live Demo:https://nac30.github.io/Learning-projects/Assembly-Endgame/demo/
 
 ---
 
