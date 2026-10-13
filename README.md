@@ -1,7 +1,6 @@
 # Learning Projects
 
-This repository contains my **frontend development practice projects** built with **HTML5, CSS3, and JavaScript**.
-Each project focuses on improving my skills in **DOM manipulation, responsive design, and interactive UI development**.
+A curated collection of **frontend projects** demonstrating my progression from **HTML5, CSS3, and core vanilla JavaScript** to **modern React development**. This repository highlights **component-based architecture, state and props management, REST API integration, and clean, accessible, and responsive user interfaces**.
 
 ---
 
